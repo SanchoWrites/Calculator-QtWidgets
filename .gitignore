@@ -1,0 +1,36 @@
+# --- Standard C++ Build Files ---
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# --- Qt Creator User Specifics (NEVER commit these) ---
+*.user
+*.user.*
+CMakeLists.txt.user
+*.pro.user
+
+# --- Build Output ---
+build/
+build-*/
+debug/
+release/
+Makefile*
+
+# --- Qt Specific Generated Files ---
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+
+# --- QML Specific (The only addition for Qt Quick) ---
+*.qmlc
+*.jsc
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
